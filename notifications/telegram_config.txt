@@ -7,8 +7,8 @@ java \
 "-Denv=${ENVIRONMENT}" \
 "-DreportLink=${BUILD_URL}" \
 "-Dcomm=Any comment here" \
-"-Dconfig.file=${PATH_TO_FILE}" \
--jar allure-notifications-3.1.2.jar
+"-Dconfig.file=notifications/telegram_bot_config.json" \
+-jar allure-notifications-4.1.jar
 
 
 // bot command  in many lines (\ as separator)
